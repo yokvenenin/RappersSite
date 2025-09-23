@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Strezy Break; /* set name */
+    src: url(fonte/STREZY\ BREAK\ REGULAR.otf); /* url of the font */
+}
+body {
+    background-image: url('img/emicida_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(83, 13, 83);
+}
+#txt2 {
+    color: rgb(122, 122, 11);
+}
+#txt3 {
+    color: rgb(170, 175, 180);
+}
+header {
+    color: rgb(122, 122, 11);
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-family: 'Strezy Break';
+}
+ul {
+    display: flex;
+    color: rgb(170, 175, 180);
+    gap: 30px;
+    list-style: none;
+}
+li {
+    /* background-color: rgb(122, 122, 11);
+    padding: 8px; */
+    transition: 0.3s;
+}
+li:hover {
+    background-color: rgb(122, 122, 11);
+    padding: 6px;
+    font-style: italic;
+    transition: 0.3s;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
